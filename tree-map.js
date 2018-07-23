@@ -6,6 +6,27 @@ Available resources for this prompt
 MDN
 */
 
+// create TreeMap class that starts a prototype chain
+var TreeMap = Object.create(value) {
+  // create placeholder array decorator
+  this.arr = [];
+  // set root starting value to 0
+  this.value = 0;
+  // set up branches
+  this.branch2 = leaf4;
+  this.branch3 = leaf5;
+};
+// create addChild method inside of treeMethods prototypal chain object
+var treeMethods = function() {
+  // create addChild method
+  TreeMap.prototype.addChild = function(value) {
+    // take input value and assign it to prototype object
+    this.value = value;
+    // assign tree children values
+  }
+};
+
+
 /**
   *
   * Implement a `map` method on this Tree class, using pseudoclassical instantiation.
