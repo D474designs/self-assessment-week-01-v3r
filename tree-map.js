@@ -8,13 +8,10 @@ MDN
 
 // create TreeMap class that starts a prototype chain
 var TreeMap = Object.create(value) {
-  // create placeholder array decorator
+  // create placeholder array decorator for children
   this.arr = [];
   // set root starting value to 0
   this.value = 0;
-  // set up branches
-  this.branch2 = leaf4;
-  this.branch3 = leaf5;
 };
 // create addChild method inside of treeMethods prototypal chain object
 var treeMethods = function() {
@@ -23,9 +20,15 @@ var treeMethods = function() {
     // take input value and assign it to prototype object
     this.value = value;
     // assign tree children values
-  }
+    if (this.arr[0]) {
+      this.arr[1] = TreeMap();
+    }
 };
-
+  ._map = function(input) {
+    for (var i = 0; i = input.length; i++) {
+      input[i] * 2;
+    }
+  };
 
 /**
   *
